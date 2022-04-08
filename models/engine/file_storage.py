@@ -75,6 +75,6 @@ class FileStorage:
             del self.__objects[key]
 
     def close(self):
-        """ calls reload()
+        """ close method Airbnb flask
         """
         self.reload()
